@@ -1,0 +1,683 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .logo img {
+  height: 25px;
+}
+
+.navbar .nav-icons img {
+  height: 20px;
+  margin-left: 30px;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-left: 40px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.offers {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+.offers a {
+  color: rgb(14, 14, 248);
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.offers a:hover {
+  text-decoration: underline;
+}
+
+.back-video video {
+  width: 100%;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 250px;
+  background-color: rgba(0, 0, 0, 0.066);
+  margin-top: 20px;
+}
+
+.titles h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.titles h1 span {
+  color: grey;
+}
+
+.services {
+  padding-left: 40px;
+}
+
+.services img {
+  height: 30px;
+  border-radius: 30px;
+}
+
+.services a {
+  color: blue;
+  text-decoration: none;
+}
+
+.services a:hover {
+  text-decoration: underline;
+}
+
+.products {
+  position: absolute;
+  display: flex;
+  padding-top: 150px;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  height: 95px;
+  margin-top: 60px;
+  mix-blend-mode: multiply;
+}
+
+.product a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.product a:hover {
+  text-decoration: underline;
+}
+
+.card-container h1 {
+  margin-top: 40px;
+  padding-left: 80px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.card-container h1 span {
+  color: grey;
+}
+
+.cards {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card img {
+  height: 270px;
+}
+
+.card {
+  height: 470px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card span {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 3px;
+}
+
+.apple-ai {
+  position: relative;
+  margin-top: 45px;
+  display: flex;
+  height: 90.5vh;
+  background-color: rgba(0, 0, 0, 0.066);
+}
+
+.gradient-text {
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.gradient-text .gradient {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.gradient-text .ab {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  padding-bottom: 10px;
+}
+
+.gradient-text .gradient {
+  background: linear-gradient(
+    90deg,
+    #0071e3,
+    #5e5ce6,
+    #bf4ba9,
+    #ff3d43,
+    #ff8e00
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text .description {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.gradient-text a span {
+  color: #0071e3;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.gradient-text a .texts {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.gradient-text a:hover .texts {
+  text-decoration: underline;
+}
+
+.apple-ai .ai-image {
+  position: absolute;
+  margin-left: 60em;
+  margin-top: 65px;
+  height: 603px;
+}
+
+.apple-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10em;
+}
+
+.video-container video {
+  max-width: 70%;
+  height: auto;
+  display: block;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.overlay-content h1 {
+  font-family: "Roboto", system-ui;
+  padding-top: 14em;
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.overlay-content p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  color: #1a73e8;
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #1a73e8;
+}
+
+.button .button-text {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #1a73e8;
+  margin-right: 10px;
+}
+
+.button .button-text:hover {
+  text-decoration: underline;
+}
+
+.button .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #1a73e8;
+}
+
+.button .icon-container svg {
+  fill: #1a73e8;
+  width: 16px;
+  height: 16px;
+}
+
+.sound-container h1 {
+  margin-top: 40px;
+  padding-left: 80px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.sound-container h1 span {
+  color: grey;
+}
+
+.sound-cards {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sound-card img {
+  height: 270px;
+}
+
+.sound-card {
+  height: 470px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.sound-card:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sound-card .head {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+  position: relative;
+  top: 20px;
+}
+
+.sound-card p {
+  margin-top: 25px;
+}
+
+.apple-accessories {
+  position: relative;
+  margin-top: 45px;
+  display: flex;
+  height: 89vh;
+  background-color: rgba(245, 245, 247, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+.accessories {
+  margin-top: 20px;
+}
+
+.accessories .magsafe-heading {
+  margin-left: 440px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.accessories p {
+  font-size: 20px;
+  margin-left: 350px;
+}
+
+.accessories a {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #0071e3;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 580px;
+  display: inline-block;
+}
+
+.accessories a .text {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.accessories a:hover .text {
+  text-decoration: underline;
+}
+
+.accessories img {
+  height: 450px;
+  margin-left: 300px;
+  margin-top: 5px;
+}
+
+.accessories-container h1 {
+  margin-top: 40px;
+  padding-left: 80px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.accessories-container h1 span {
+  color: grey;
+}
+
+.accessories-cards {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.accessories-card img {
+  height: 420px;
+  width: 290px;
+}
+
+.accessories-card {
+  height: 470px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.accessories-card:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.shop-container h1 {
+  margin-top: 40px;
+  padding-left: 80px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.shop-container h1 span {
+  color: grey;
+}
+
+.shop-cards {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shop-card img {
+  height: 150px;
+}
+
+.shop-card {
+  height: 190px;
+  width: 280px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.shop-card:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.support-container {
+  background-color: white;
+}
+
+.support-container h1 {
+  margin-top: 40px;
+  padding-left: 80px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.support-container h1 span {
+  color: grey;
+}
+
+.support-cards {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.support-card img {
+  height: 450px;
+}
+
+.support-card {
+  height: 480px;
+  width: 480px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.support-card:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.support-card .apple-specialist {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+}
+
+.support-card .card-title {
+  text-align: left;
+  font-size: 26.3px;
+  font-weight: 600;
+  margin-left: 20px;
+  line-height: 1.3;
+}
+
+.support-card .video-card {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.support-card .card-image {
+  width: 105%;
+  height: 100%;
+  margin-top: -2.3px;
+  margin-left: -15px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.links-container {
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+}
+
+.links-container {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.links-container h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.links-container .quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.links-container .quick-links > a {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid black;
+  border-radius: 980px;
+  text-decoration: none;
+  color: #1d1d1f;
+  font-size: 14px;
+  background-color: white;
+}
+
+.links-container .quick-links > a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+.links-container .arrow {
+  display: inline-flex;
+  margin-left: 5px;
+}
+
+.links-container .arrow svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.menu-items {
+  margin-top: 30px;
+  background-color: rgba(245, 245, 247, 255);
+}
+
+.store {
+  display: flex;
+  margin-left: 5rem;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.store img {
+  height: 20px;
+}
+
+.menu-list {
+  display: flex;
+  margin-left: 150px;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.menu-list ul {
+  list-style: none;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.menu-list ul li {
+  line-height: 2;
+}
+
+.menu-list ul a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.menu-list ul a:hover {
+  text-decoration: underline;
+}
