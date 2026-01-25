@@ -229,7 +229,9 @@
 }
 
 .gradient-text a .texts {
-  transition: color 0.3s ease, text-decoration 0.3s ease;
+  transition:
+    color 0.3s ease,
+    text-decoration 0.3s ease;
 }
 
 .gradient-text a:hover .texts {
@@ -239,7 +241,7 @@
 .apple-ai .ai-image {
   position: absolute;
   margin-left: 60em;
-  margin-top: 65px;
+  margin-top: 60px;
   height: 603px;
 }
 
@@ -426,7 +428,9 @@
 }
 
 .accessories a .text {
-  transition: color 0.3s ease, text-decoration 0.3s ease;
+  transition:
+    color 0.3s ease,
+    text-decoration 0.3s ease;
 }
 
 .accessories a:hover .text {
@@ -436,7 +440,6 @@
 .accessories img {
   height: 450px;
   margin-left: 300px;
-  margin-top: 5px;
 }
 
 .accessories-container h1 {
